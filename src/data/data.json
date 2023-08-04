@@ -42,6 +42,21 @@
     "id": 3,
     "class": "战巡",
     "rate": 1,
+    "prototype_name": "雷火之星",
+    "subtype": null,
+    "company": "海雷丁",
+    "strategy": [
+      "火力出众",
+      "战略支援"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 4,
+    "class": "战巡",
+    "rate": 1,
     "prototype_name": "乌拉诺斯之矛",
     "subtype": null,
     "company": "诺玛运输",
@@ -54,7 +69,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "class": "战巡",
     "rate": 1,
     "prototype_name": "新君士坦丁大帝级",
@@ -68,9 +83,9 @@
     ]
   },
   {
-    "id": 5,
+    "id": 6,
     "class": "战巡",
-    "rate": 2.5,
+    "rate": 2,
     "prototype_name": "ST59级",
     "subtype": null,
     "company": "未央标准",
@@ -83,7 +98,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "class": "战巡",
     "rate": 1,
     "prototype_name": "永恒风暴级",
@@ -97,9 +112,22 @@
     ]
   },
   {
-    "id": 7,
+    "id": 8,
     "class": "支援舰",
-    "rate": 1,
+    "rate": 2,
+    "prototype_name": "埃迪卡拉级",
+    "subtype": null,
+    "company": "诺玛运输",
+    "strategy": [
+      "火力出众",
+      "战略支援"
+    ],
+    "tactic": []
+  },
+  {
+    "id": 9,
+    "class": "支援舰",
+    "rate": 2,
     "prototype_name": "FSV830",
     "subtype": null,
     "company": "未央标准",
@@ -110,7 +138,7 @@
     "tactic": []
   },
   {
-    "id": 8,
+    "id": 10,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "康纳马拉混沌级",
@@ -124,7 +152,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 11,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "康纳马拉混沌级",
@@ -138,7 +166,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 12,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "猎兵级",
@@ -150,7 +178,7 @@
     "tactic": []
   },
   {
-    "id": 11,
+    "id": 13,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "猎兵级",
@@ -164,7 +192,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 14,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "狩猎者级",
@@ -176,7 +204,7 @@
     "tactic": []
   },
   {
-    "id": 13,
+    "id": 15,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "狩猎者级",
@@ -188,7 +216,7 @@
     "tactic": []
   },
   {
-    "id": 14,
+    "id": 16,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "狩猎者级",
@@ -200,7 +228,7 @@
     "tactic": []
   },
   {
-    "id": 15,
+    "id": 17,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "奇美拉级",
@@ -215,7 +243,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 18,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "奇美拉级",
@@ -230,7 +258,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 19,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "奇美拉级",
@@ -244,7 +272,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 20,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "光锥级",
@@ -256,7 +284,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 21,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "光锥级",
@@ -270,7 +298,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 22,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "光锥级",
@@ -284,7 +312,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 23,
     "class": "巡洋",
     "rate": 1.5,
     "prototype_name": "卡利斯托",
@@ -298,7 +326,7 @@
     ]
   },
   {
-    "id": 22,
+    "id": 24,
     "class": "巡洋",
     "rate": 0.5,
     "prototype_name": "卡利斯托",
@@ -312,7 +340,7 @@
     ]
   },
   {
-    "id": 23,
+    "id": 25,
     "class": "巡洋",
     "rate": 0.5,
     "prototype_name": "卡利斯托",
@@ -324,7 +352,7 @@
     ]
   },
   {
-    "id": 24,
+    "id": 26,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "艾奥级",
@@ -339,7 +367,7 @@
     ]
   },
   {
-    "id": 25,
+    "id": 27,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "艾奥级",
@@ -354,7 +382,7 @@
     ]
   },
   {
-    "id": 26,
+    "id": 28,
     "class": "巡洋",
     "rate": 2.5,
     "prototype_name": "艾奥级",
@@ -369,7 +397,7 @@
     ]
   },
   {
-    "id": 27,
+    "id": 29,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "CAS066级",
@@ -384,7 +412,7 @@
     ]
   },
   {
-    "id": 28,
+    "id": 30,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "CAS066级",
@@ -398,7 +426,7 @@
     ]
   },
   {
-    "id": 29,
+    "id": 31,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "CAS066级",
@@ -408,7 +436,19 @@
     "tactic": []
   },
   {
-    "id": 30,
+    "id": 32,
+    "class": "巡洋",
+    "rate": 5,
+    "prototype_name": "CAS066级",
+    "subtype": "支援型(D)",
+    "company": "未央标准",
+    "strategy": [
+      "战略支援"
+    ],
+    "tactic": []
+  },
+  {
+    "id": 33,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "KCCPV2.0",
@@ -423,7 +463,7 @@
     ]
   },
   {
-    "id": 31,
+    "id": 34,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "KCCPV2.0",
@@ -437,7 +477,7 @@
     ]
   },
   {
-    "id": 32,
+    "id": 35,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "KCCPV2.0",
@@ -449,7 +489,7 @@
     ]
   },
   {
-    "id": 33,
+    "id": 36,
     "class": "巡洋",
     "rate": 5,
     "prototype_name": "KCCPV2.0",
@@ -459,7 +499,7 @@
     "tactic": []
   },
   {
-    "id": 34,
+    "id": 37,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "亚达伯拉级",
@@ -474,7 +514,7 @@
     ]
   },
   {
-    "id": 35,
+    "id": 38,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "亚达伯拉级",
@@ -489,7 +529,7 @@
     ]
   },
   {
-    "id": 36,
+    "id": 39,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "创神星级",
@@ -503,7 +543,7 @@
     ]
   },
   {
-    "id": 37,
+    "id": 40,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "创神星级",
@@ -517,7 +557,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 41,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "卫士",
@@ -529,7 +569,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 42,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "卫士",
@@ -543,7 +583,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 43,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "卫士",
@@ -558,7 +598,7 @@
     ]
   },
   {
-    "id": 41,
+    "id": 44,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "枪骑兵级",
@@ -572,7 +612,7 @@
     ]
   },
   {
-    "id": 42,
+    "id": 45,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "枪骑兵级",
@@ -586,7 +626,7 @@
     ]
   },
   {
-    "id": 43,
+    "id": 46,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "枪骑兵级",
@@ -601,7 +641,7 @@
     ]
   },
   {
-    "id": 44,
+    "id": 47,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "苔原级",
@@ -613,7 +653,7 @@
     "tactic": []
   },
   {
-    "id": 45,
+    "id": 48,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "苔原级",
@@ -625,7 +665,7 @@
     "tactic": []
   },
   {
-    "id": 46,
+    "id": 49,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "斗牛级",
@@ -640,7 +680,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 50,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "斗牛级",
@@ -655,7 +695,7 @@
     ]
   },
   {
-    "id": 48,
+    "id": 51,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "斗牛级",
@@ -670,7 +710,7 @@
     ]
   },
   {
-    "id": 49,
+    "id": 52,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "谷神星级",
@@ -682,7 +722,7 @@
     "tactic": []
   },
   {
-    "id": 50,
+    "id": 53,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "谷神星级",
@@ -694,7 +734,7 @@
     "tactic": []
   },
   {
-    "id": 51,
+    "id": 54,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "谷神星级",
@@ -706,7 +746,7 @@
     "tactic": []
   },
   {
-    "id": 52,
+    "id": 55,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "阋神星级",
@@ -720,7 +760,7 @@
     ]
   },
   {
-    "id": 53,
+    "id": 56,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "阋神星级",
@@ -735,7 +775,7 @@
     ]
   },
   {
-    "id": 54,
+    "id": 57,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "阋神星级",
@@ -749,7 +789,7 @@
     ]
   },
   {
-    "id": 55,
+    "id": 58,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "AC721",
@@ -763,7 +803,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": 59,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "AC721",
@@ -777,7 +817,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 60,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "AC721",
@@ -789,7 +829,7 @@
     "tactic": []
   },
   {
-    "id": 58,
+    "id": 61,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "雷里亚特级",
@@ -803,7 +843,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 62,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "雷里亚特级",
@@ -817,7 +857,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 63,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "雷里亚特级",
@@ -832,7 +872,7 @@
     ]
   },
   {
-    "id": 61,
+    "id": 64,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "澄海级",
@@ -847,7 +887,7 @@
     ]
   },
   {
-    "id": 62,
+    "id": 65,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "澄海级",
@@ -861,7 +901,7 @@
     ]
   },
   {
-    "id": 63,
+    "id": 66,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "澄海级",
@@ -875,7 +915,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 67,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "卡利莱恩级",
@@ -890,7 +930,7 @@
     ]
   },
   {
-    "id": 65,
+    "id": 68,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "卡利莱恩级",
@@ -904,7 +944,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": 69,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "卡利莱恩级",
@@ -918,7 +958,7 @@
     ]
   },
   {
-    "id": 67,
+    "id": 70,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "诺玛M470级",
@@ -930,7 +970,7 @@
     "tactic": []
   },
   {
-    "id": 68,
+    "id": 71,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "诺玛M470级",
@@ -942,7 +982,7 @@
     "tactic": []
   },
   {
-    "id": 69,
+    "id": 72,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "诺玛M470级",
@@ -954,7 +994,7 @@
     "tactic": []
   },
   {
-    "id": 70,
+    "id": 73,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "红宝石级",
@@ -968,7 +1008,7 @@
     ]
   },
   {
-    "id": 71,
+    "id": 74,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "红宝石级",
@@ -982,7 +1022,7 @@
     ]
   },
   {
-    "id": 72,
+    "id": 75,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "红宝石级",
@@ -996,7 +1036,7 @@
     ]
   },
   {
-    "id": 73,
+    "id": 76,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "刺水母级",
@@ -1008,7 +1048,7 @@
     "tactic": []
   },
   {
-    "id": 74,
+    "id": 77,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "刺水母级",
@@ -1018,7 +1058,7 @@
     "tactic": []
   },
   {
-    "id": 75,
+    "id": 78,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "云海级",
@@ -1030,7 +1070,7 @@
     "tactic": []
   },
   {
-    "id": 76,
+    "id": 79,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "云海级",
@@ -1040,7 +1080,7 @@
     "tactic": []
   },
   {
-    "id": 77,
+    "id": 80,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "静海级",
@@ -1052,7 +1092,7 @@
     ]
   },
   {
-    "id": 78,
+    "id": 81,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "静海级",
@@ -1064,7 +1104,7 @@
     ]
   },
   {
-    "id": 79,
+    "id": 82,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "静海级",
@@ -1076,19 +1116,21 @@
     ]
   },
   {
-    "id": 80,
+    "id": 83,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "FG300",
     "subtype": "多功能型(A)",
     "company": "未央标准",
-    "strategy": [],
+    "strategy": [
+      "战略支援"
+    ],
     "tactic": [
       "直射武器"
     ]
   },
   {
-    "id": 81,
+    "id": 84,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "FG300",
@@ -1102,19 +1144,21 @@
     ]
   },
   {
-    "id": 82,
+    "id": 85,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "FG300",
     "subtype": "侦察型(C)",
     "company": "未央标准",
-    "strategy": [],
+    "strategy": [
+      "战略支援"
+    ],
     "tactic": [
       "直射武器"
     ]
   },
   {
-    "id": 83,
+    "id": 86,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "CV-T800",
@@ -1130,7 +1174,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": 87,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1147,7 +1191,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 88,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1161,7 +1205,21 @@
     ]
   },
   {
-    "id": 86,
+    "id": 89,
+    "class": "护航艇",
+    "rate": 5,
+    "prototype_name": "CV-M011",
+    "subtype": "高速型(C)",
+    "company": "未央标准",
+    "strategy": [
+      "舰载机"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 90,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "虚灵",
@@ -1177,7 +1235,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 91,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "星云追逐者",
@@ -1192,7 +1250,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 92,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "星云追逐者",
@@ -1207,7 +1265,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 93,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "蜂巢守卫者",
@@ -1222,7 +1280,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 94,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "RB7-13",
@@ -1236,7 +1294,7 @@
     "tactic": []
   },
   {
-    "id": 91,
+    "id": 95,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-II003",
@@ -1251,7 +1309,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 96,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "鳐",
@@ -1265,7 +1323,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 97,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "S-列维9号",
@@ -1281,7 +1339,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 98,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "米斯特拉",
@@ -1295,7 +1353,52 @@
     ]
   },
   {
-    "id": 95,
+    "id": 99,
+    "class": "战机",
+    "rate": 5,
+    "prototype_name": "AT021",
+    "subtype": "脉冲型(A)",
+    "company": "未央标准",
+    "strategy": [
+      "舰载机"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 100,
+    "class": "战机",
+    "rate": 5,
+    "prototype_name": "AT021",
+    "subtype": "干扰型(B) ",
+    "company": "未央标准",
+    "strategy": [
+      "持续作战",
+      "战略支援",
+      "舰载机"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 101,
+    "class": "战机",
+    "rate": 2.5,
+    "prototype_name": "AT021",
+    "subtype": "多功能型(C)",
+    "company": "未央标准",
+    "strategy": [
+      "火力出众",
+      "舰载机"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 102,
     "class": "战机",
     "rate": 5,
     "prototype_name": "佩刀Aer410",
@@ -1310,7 +1413,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 103,
     "class": "战机",
     "rate": 5,
     "prototype_name": "刺鳐",
@@ -1326,7 +1429,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 104,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "孢子A404",
@@ -1341,7 +1444,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 105,
     "class": "战机",
     "rate": 5,
     "prototype_name": "B192新大地",
@@ -1356,7 +1459,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 106,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "维塔斯-B010",
@@ -1372,7 +1475,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 107,
     "class": "战机",
     "rate": 5,
     "prototype_name": "维塔斯A021",
@@ -1387,7 +1490,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 108,
     "class": "战机",
     "rate": 5,
     "prototype_name": "平衡安德森SC020",
@@ -1402,7 +1505,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 109,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "海氏追随者",
@@ -1418,7 +1521,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 110,
     "class": "战机",
     "rate": 5,
     "prototype_name": "林鸮A100",
@@ -1432,7 +1535,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 111,
     "class": "战机",
     "rate": 5,
     "prototype_name": "牛蛙",
@@ -1447,7 +1550,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 112,
     "class": "战机",
     "rate": 5,
     "prototype_name": "砂龙",
@@ -1462,7 +1565,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 113,
     "class": "战机",
     "rate": 5,
     "prototype_name": "SC002",
