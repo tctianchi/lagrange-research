@@ -1,4 +1,6 @@
-# il
+# Lagrange Simulator
+
+NOTE: This site was forked from https://github.com/ailtariel/lagrange. But the original codebase does not have a LICENSE. According to github policy, it is assumed that the codebase can NOT be forked. So I must remove this fork if the original author asks me to do so.
 
 ## Project setup
 ```
