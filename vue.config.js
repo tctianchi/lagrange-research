@@ -6,5 +6,5 @@ module.exports = {
     port: 8800
   },
   publicPath: process.env.NODE_ENV == 'production' ? '/lagrange/' : '/',
-  outputDir: 'dist/lagrange'
+  outputDir: 'docs'
 }
