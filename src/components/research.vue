@@ -118,6 +118,9 @@
                     <v-col :class="activeShip.id == ship.id ? 'font-weight-bold primary--text' : ''">
                       {{ ship.prototype_name }}{{ ship.subtype ? ' - ' + ship.subtype : '' }}
                     </v-col>
+                    <v-col cols="2" :class="activeShip.id == ship.id ? 'font-weight-bold primary--text' : ''">
+                      {{ ship.rate }}
+                    </v-col>
                   </v-row>
                 </v-list-item-content>
               </v-list-item>
@@ -143,6 +146,9 @@ export default defineComponent({
   setup(){
     const ships = ref([]);
     const menu = inject('menu');
+
+    const hiddenComps = ['海雷丁'];
+
     data.forEach(d => {
       const _class = d.class;
       const idx = ships.value.findIndex( x => x?.label == _class );
@@ -178,6 +184,9 @@ export default defineComponent({
     const activeShip = ref(null);
 
     const findMatches = (id, company, strategy, tactic ) => {
+      if( company && company.indexOf(hiddenComps) != -1 ){
+        company = null;
+      }
       const find = data.filter( x => {
         return x.id == id || 
         (
@@ -187,9 +196,10 @@ export default defineComponent({
         );
       });
       if( find?.length ){
+        const sum = _.sumBy( find, 'rate');
         return {
           filter: _.without([company, strategy, tactic], undefined, null),
-          data: find.map( x => _.pick(x, ['id', 'class', 'prototype_name', 'subtype']) )
+          data: find.map( x => _.merge(_.pick(x, ['id', 'class', 'prototype_name', 'subtype']), {rate: (Math.round(x.rate * 10000 / sum)/100).toFixed(2) + '%' }) )
         }
       }else{
         return null;
@@ -201,23 +211,28 @@ export default defineComponent({
       if( v ){        
         // 2次匹配：company/战略性能/战术性能 3选2
         let matches_2 = [];
-        // company + 战略
-        if( v.strategy?.length ){
-          v.strategy.forEach( s => {
-            const find = findMatches(v.id, v.company, s, null);
-            if( find ){
-              matches_2.push(find);
-            }
-          });
-        }
-        // company + 战术
-        if( v.tactic?.length ){
-          v.tactic.forEach( t => {
-            const find = findMatches(v.id, v.company, null, t);
-            if( find ){
-              matches_2.push(find);
-            }
-          });
+        // 3次匹配：company + 战略性能 + 战术性能
+        let matches_3 = [];
+
+        if( v.company.indexOf(hiddenComps) == -1 ){
+          // company + 战略
+          if( v.strategy?.length ){
+            v.strategy.forEach( s => {
+              const find = findMatches(v.id, v.company, s, null);
+              if( find ){
+                matches_2.push(find);
+              }
+            });
+          }        
+          // company + 战术
+          if( v.tactic?.length ){
+            v.tactic.forEach( t => {
+              const find = findMatches(v.id, v.company, null, t);
+              if( find ){
+                matches_2.push(find);
+              }
+            });
+          }
         }
         // 战略 + 战术
         if( v.strategy?.length && v.tactic?.length ){
@@ -232,16 +247,17 @@ export default defineComponent({
         }
 
         // 3次匹配：company + 战略性能 + 战术性能
-        let matches_3 = [];
-        if( v.strategy?.length && v.tactic?.length ){          
-          v.strategy.forEach( s => {
-            v.tactic.forEach( t => {
-              const find = findMatches(v.id, v.company, s, t);
-              if( find ){
-                matches_3.push(find);
-              }
+        if( v.company.indexOf(hiddenComps) == -1 ){
+          if( v.strategy?.length && v.tactic?.length ){          
+            v.strategy.forEach( s => {
+              v.tactic.forEach( t => {
+                const find = findMatches(v.id, v.company, s, t);
+                if( find ){
+                  matches_3.push(find);
+                }
+              });
             });
-          });
+          }
         }
         research_tree.value = [];
         if( matches_2?.length ){
