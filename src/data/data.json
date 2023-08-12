@@ -85,7 +85,7 @@
   {
     "id": 6,
     "class": "战巡",
-    "rate": 2,
+    "rate": 2.5,
     "prototype_name": "ST59级",
     "subtype": null,
     "company": "未央标准",
@@ -127,7 +127,7 @@
   {
     "id": 9,
     "class": "支援舰",
-    "rate": 2,
+    "rate": 2.5,
     "prototype_name": "FSV830",
     "subtype": null,
     "company": "未央标准",
@@ -1291,7 +1291,9 @@
       "战略支援",
       "舰载机"
     ],
-    "tactic": []
+    "tactic": [
+      "投射武器"
+    ]
   },
   {
     "id": 95,
