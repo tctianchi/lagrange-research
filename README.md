@@ -6,6 +6,10 @@ Check the web at [https://tctianchi.github.io/lagrange/](https://tctianchi.githu
 
 请到这里使用：[https://tctianchi.github.io/lagrange/](https://tctianchi.github.io/lagrange/)。
 
+## What's new
+
+* 2023-08-05: add 雷火之星, 埃迪卡拉级, CAS066(D), CV-M011(C), AT021
+
 ## Dev
 
 ```
