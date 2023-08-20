@@ -10,13 +10,13 @@
         @click.stop="menu = !menu"
       ></v-app-bar-nav-icon>
       <v-app-bar-title>
-        保底研发
+        《无尽的拉格朗日》研究协议（定向保底）模拟器
       </v-app-bar-title>
 
       <v-spacer></v-spacer>
 
       <v-btn text>
-        ver 1.0
+        2023-08-05
       </v-btn>
     </v-app-bar>
 
