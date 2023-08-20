@@ -1,9 +1,6 @@
 <template>
   <v-container>
-    <v-card
-      elevation="12"
-      width="256"
-    >
+    <v-card>
       <v-navigation-drawer
         v-model="menu"
         clipped
