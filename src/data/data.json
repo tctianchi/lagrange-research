@@ -1159,6 +1159,34 @@
   },
   {
     "id": 86,
+    "class": "护卫",
+    "rate": 2.5,
+    "prototype_name": "雨海级",
+    "subtype": "轨道炮型(A)",
+    "company": "木星工业",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 87,
+    "class": "护卫",
+    "rate": 2.5,
+    "prototype_name": "雨海级",
+    "subtype": "脉冲型(B)",
+    "company": "木星工业",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 88,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "CV-T800",
@@ -1174,7 +1202,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 89,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1191,7 +1219,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 90,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1205,7 +1233,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 91,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1219,7 +1247,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 92,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "虚灵",
@@ -1235,7 +1263,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 93,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "星云追逐者",
@@ -1250,7 +1278,7 @@
     ]
   },
   {
-    "id": 92,
+    "id": 94,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "星云追逐者",
@@ -1265,7 +1293,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 95,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "蜂巢守卫者",
@@ -1280,7 +1308,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 96,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "RB7-13",
@@ -1296,7 +1324,7 @@
     ]
   },
   {
-    "id": 95,
+    "id": 97,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-II003",
@@ -1311,7 +1339,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 98,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "鳐",
@@ -1325,7 +1353,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 99,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "S-列维9号",
@@ -1341,7 +1369,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 100,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "米斯特拉",
@@ -1355,7 +1383,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 101,
     "class": "战机",
     "rate": 5,
     "prototype_name": "AT021",
@@ -1369,7 +1397,7 @@
     ]
   },
   {
-    "id": 100,
+    "id": 102,
     "class": "战机",
     "rate": 5,
     "prototype_name": "AT021",
@@ -1385,7 +1413,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 103,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "AT021",
@@ -1400,7 +1428,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 104,
     "class": "战机",
     "rate": 5,
     "prototype_name": "佩刀Aer410",
@@ -1415,7 +1443,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 105,
     "class": "战机",
     "rate": 5,
     "prototype_name": "刺鳐",
@@ -1431,7 +1459,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 106,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "孢子A404",
@@ -1446,7 +1474,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 107,
     "class": "战机",
     "rate": 5,
     "prototype_name": "B192新大地",
@@ -1461,7 +1489,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 108,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "维塔斯-B010",
@@ -1477,7 +1505,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 109,
     "class": "战机",
     "rate": 5,
     "prototype_name": "维塔斯A021",
@@ -1492,7 +1520,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 110,
     "class": "战机",
     "rate": 5,
     "prototype_name": "平衡安德森SC020",
@@ -1507,7 +1535,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 111,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "海氏追随者",
@@ -1523,7 +1551,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 112,
     "class": "战机",
     "rate": 5,
     "prototype_name": "林鸮A100",
@@ -1537,7 +1565,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 113,
     "class": "战机",
     "rate": 5,
     "prototype_name": "牛蛙",
@@ -1552,7 +1580,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 114,
     "class": "战机",
     "rate": 5,
     "prototype_name": "砂龙",
@@ -1567,7 +1595,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 115,
     "class": "战机",
     "rate": 5,
     "prototype_name": "SC002",
