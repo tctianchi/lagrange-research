@@ -1613,7 +1613,7 @@
   {
     "id": 116,
     "class": "战机",
-    "rate": 3.76,
+    "rate": 5,
     "prototype_name": "BR050",
     "subtype": "对舰型(A)",
     "company": "未央标准",
@@ -1643,7 +1643,7 @@
   {
     "id": 118,
     "class": "战机",
-    "rate": 3.76,
+    "rate": 2.5,
     "prototype_name": "BR050",
     "subtype": "鱼雷型(C)",
     "company": "未央标准",
