@@ -114,7 +114,7 @@
   {
     "id": 8,
     "class": "支援舰",
-    "rate": 2,
+    "rate": 1,
     "prototype_name": "埃迪卡拉级",
     "subtype": null,
     "company": "诺玛运输",
@@ -1608,6 +1608,51 @@
     ],
     "tactic": [
       "直射武器"
+    ]
+  },
+  {
+    "id": 116,
+    "class": "战机",
+    "rate": 3.76,
+    "prototype_name": "BR050",
+    "subtype": "对舰型(A)",
+    "company": "未央标准",
+    "strategy": [
+      "火力出众",
+      "舰载机"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 117,
+    "class": "战机",
+    "rate": 5,
+    "prototype_name": "BR050",
+    "subtype": "防御型(B)",
+    "company": "未央标准",
+    "strategy": [
+      "持续作战",
+      "舰载机"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 118,
+    "class": "战机",
+    "rate": 3.76,
+    "prototype_name": "BR050",
+    "subtype": "鱼雷型(C)",
+    "company": "未央标准",
+    "strategy": [
+      "火力出众",
+      "舰载机"
+    ],
+    "tactic": [
+      "投射武器"
     ]
   }
 ]
