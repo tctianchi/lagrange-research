@@ -5,7 +5,7 @@
     "rate": 1,
     "prototype_name": "南十字星元帅级",
     "subtype": null,
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "战略支援"
@@ -74,7 +74,7 @@
     "rate": 1,
     "prototype_name": "新君士坦丁大帝级",
     "subtype": null,
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众"
     ],
@@ -171,7 +171,7 @@
     "rate": 2.5,
     "prototype_name": "猎兵级",
     "subtype": "支援型(A)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -183,7 +183,7 @@
     "rate": 2.5,
     "prototype_name": "猎兵级",
     "subtype": "对舰(B)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -197,7 +197,7 @@
     "rate": 5,
     "prototype_name": "狩猎者级",
     "subtype": "通用型(A)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -209,7 +209,7 @@
     "rate": 5,
     "prototype_name": "狩猎者级",
     "subtype": "战术型(B)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -221,7 +221,7 @@
     "rate": 5,
     "prototype_name": "狩猎者级",
     "subtype": "防空型(C)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -500,6 +500,34 @@
   },
   {
     "id": 37,
+    "class": "巡洋",
+    "rate": 3,
+    "prototype_name": "游骑兵级",
+    "subtype": "综合型(A)",
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 38,
+    "class": "巡洋",
+    "rate": 3,
+    "prototype_name": "游骑兵级",
+    "subtype": "离子炮型(B)",
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 39,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "亚达伯拉级",
@@ -514,7 +542,7 @@
     ]
   },
   {
-    "id": 38,
+    "id": 40,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "亚达伯拉级",
@@ -529,7 +557,7 @@
     ]
   },
   {
-    "id": 39,
+    "id": 41,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "创神星级",
@@ -543,7 +571,7 @@
     ]
   },
   {
-    "id": 40,
+    "id": 42,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "创神星级",
@@ -557,24 +585,24 @@
     ]
   },
   {
-    "id": 41,
+    "id": 43,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "卫士",
     "subtype": "支援型(A)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [],
     "tactic": [
       "投射武器"
     ]
   },
   {
-    "id": 42,
+    "id": 44,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "卫士",
     "subtype": "两栖型(B)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -583,12 +611,12 @@
     ]
   },
   {
-    "id": 43,
+    "id": 45,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "卫士",
     "subtype": "脉冲型(C)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "持续作战"
@@ -598,40 +626,40 @@
     ]
   },
   {
-    "id": 44,
-    "class": "驱逐",
-    "rate": 5,
-    "prototype_name": "枪骑兵级",
-    "subtype": "对舰型(A)",
-    "company": "安东尼奥",
-    "strategy": [
-      "火力出众"
-    ],
-    "tactic": [
-      "投射武器"
-    ]
-  },
-  {
-    "id": 45,
-    "class": "驱逐",
-    "rate": 5,
-    "prototype_name": "枪骑兵级",
-    "subtype": "综合型(B)",
-    "company": "安东尼奥",
-    "strategy": [
-      "火力出众"
-    ],
-    "tactic": [
-      "投射武器"
-    ]
-  },
-  {
     "id": 46,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "枪骑兵级",
+    "subtype": "对舰型(A)",
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 47,
+    "class": "驱逐",
+    "rate": 5,
+    "prototype_name": "枪骑兵级",
+    "subtype": "综合型(B)",
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 48,
+    "class": "驱逐",
+    "rate": 5,
+    "prototype_name": "枪骑兵级",
     "subtype": "防空型(C)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "持续作战",
       "战略支援"
@@ -641,7 +669,7 @@
     ]
   },
   {
-    "id": 47,
+    "id": 49,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "苔原级",
@@ -653,7 +681,7 @@
     "tactic": []
   },
   {
-    "id": 48,
+    "id": 50,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "苔原级",
@@ -665,7 +693,7 @@
     "tactic": []
   },
   {
-    "id": 49,
+    "id": 51,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "斗牛级",
@@ -680,7 +708,7 @@
     ]
   },
   {
-    "id": 50,
+    "id": 52,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "斗牛级",
@@ -695,7 +723,7 @@
     ]
   },
   {
-    "id": 51,
+    "id": 53,
     "class": "驱逐",
     "rate": 2.5,
     "prototype_name": "斗牛级",
@@ -710,7 +738,7 @@
     ]
   },
   {
-    "id": 52,
+    "id": 54,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "谷神星级",
@@ -722,7 +750,7 @@
     "tactic": []
   },
   {
-    "id": 53,
+    "id": 55,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "谷神星级",
@@ -734,7 +762,7 @@
     "tactic": []
   },
   {
-    "id": 54,
+    "id": 56,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "谷神星级",
@@ -746,7 +774,7 @@
     "tactic": []
   },
   {
-    "id": 55,
+    "id": 57,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "阋神星级",
@@ -760,7 +788,7 @@
     ]
   },
   {
-    "id": 56,
+    "id": 58,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "阋神星级",
@@ -775,7 +803,7 @@
     ]
   },
   {
-    "id": 57,
+    "id": 59,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "阋神星级",
@@ -789,7 +817,7 @@
     ]
   },
   {
-    "id": 58,
+    "id": 60,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "AC721",
@@ -803,7 +831,7 @@
     ]
   },
   {
-    "id": 59,
+    "id": 61,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "AC721",
@@ -817,7 +845,7 @@
     ]
   },
   {
-    "id": 60,
+    "id": 62,
     "class": "驱逐",
     "rate": 5,
     "prototype_name": "AC721",
@@ -829,40 +857,40 @@
     "tactic": []
   },
   {
-    "id": 61,
-    "class": "护卫",
-    "rate": 5,
-    "prototype_name": "雷里亚特级",
-    "subtype": "对舰型(A)",
-    "company": "安东尼奥",
-    "strategy": [
-      "火力出众"
-    ],
-    "tactic": [
-      "投射武器"
-    ]
-  },
-  {
-    "id": 62,
-    "class": "护卫",
-    "rate": 5,
-    "prototype_name": "雷里亚特级",
-    "subtype": "鱼雷型(B)",
-    "company": "安东尼奥",
-    "strategy": [
-      "火力出众"
-    ],
-    "tactic": [
-      "投射武器"
-    ]
-  },
-  {
     "id": 63,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "雷里亚特级",
+    "subtype": "对舰型(A)",
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 64,
+    "class": "护卫",
+    "rate": 5,
+    "prototype_name": "雷里亚特级",
+    "subtype": "鱼雷型(B)",
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 65,
+    "class": "护卫",
+    "rate": 5,
+    "prototype_name": "雷里亚特级",
     "subtype": "隐身型(C)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "持续作战"
@@ -872,7 +900,7 @@
     ]
   },
   {
-    "id": 64,
+    "id": 66,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "澄海级",
@@ -887,7 +915,7 @@
     ]
   },
   {
-    "id": 65,
+    "id": 67,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "澄海级",
@@ -901,7 +929,7 @@
     ]
   },
   {
-    "id": 66,
+    "id": 68,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "澄海级",
@@ -915,12 +943,12 @@
     ]
   },
   {
-    "id": 67,
+    "id": 69,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "卡利莱恩级",
     "subtype": "侦察型(A)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "持续作战",
       "战略支援"
@@ -930,12 +958,12 @@
     ]
   },
   {
-    "id": 68,
+    "id": 70,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "卡利莱恩级",
     "subtype": "重炮型(B)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "战略支援"
     ],
@@ -944,12 +972,12 @@
     ]
   },
   {
-    "id": 69,
+    "id": 71,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "卡利莱恩级",
     "subtype": "特种型(C)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "持续作战"
     ],
@@ -958,7 +986,7 @@
     ]
   },
   {
-    "id": 70,
+    "id": 72,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "诺玛M470级",
@@ -970,7 +998,7 @@
     "tactic": []
   },
   {
-    "id": 71,
+    "id": 73,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "诺玛M470级",
@@ -982,7 +1010,7 @@
     "tactic": []
   },
   {
-    "id": 72,
+    "id": 74,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "诺玛M470级",
@@ -994,7 +1022,7 @@
     "tactic": []
   },
   {
-    "id": 73,
+    "id": 75,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "红宝石级",
@@ -1008,7 +1036,7 @@
     ]
   },
   {
-    "id": 74,
+    "id": 76,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "红宝石级",
@@ -1022,7 +1050,7 @@
     ]
   },
   {
-    "id": 75,
+    "id": 77,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "红宝石级",
@@ -1036,7 +1064,7 @@
     ]
   },
   {
-    "id": 76,
+    "id": 78,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "刺水母级",
@@ -1048,7 +1076,7 @@
     "tactic": []
   },
   {
-    "id": 77,
+    "id": 79,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "刺水母级",
@@ -1058,7 +1086,7 @@
     "tactic": []
   },
   {
-    "id": 78,
+    "id": 80,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "云海级",
@@ -1070,7 +1098,7 @@
     "tactic": []
   },
   {
-    "id": 79,
+    "id": 81,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "云海级",
@@ -1080,7 +1108,7 @@
     "tactic": []
   },
   {
-    "id": 80,
+    "id": 82,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "静海级",
@@ -1092,7 +1120,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 83,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "静海级",
@@ -1104,7 +1132,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 84,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "静海级",
@@ -1116,7 +1144,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": 85,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "FG300",
@@ -1130,7 +1158,7 @@
     ]
   },
   {
-    "id": 84,
+    "id": 86,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "FG300",
@@ -1144,7 +1172,7 @@
     ]
   },
   {
-    "id": 85,
+    "id": 87,
     "class": "护卫",
     "rate": 5,
     "prototype_name": "FG300",
@@ -1158,7 +1186,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 88,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "雨海级",
@@ -1172,7 +1200,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 89,
     "class": "护卫",
     "rate": 2.5,
     "prototype_name": "雨海级",
@@ -1186,7 +1214,7 @@
     ]
   },
   {
-    "id": 88,
+    "id": 90,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "CV-T800",
@@ -1202,7 +1230,7 @@
     ]
   },
   {
-    "id": 89,
+    "id": 91,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1219,7 +1247,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 92,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1233,7 +1261,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 93,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-M011",
@@ -1247,12 +1275,12 @@
     ]
   },
   {
-    "id": 92,
+    "id": 94,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "虚灵",
     "subtype": null,
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "持续作战",
@@ -1263,12 +1291,12 @@
     ]
   },
   {
-    "id": 93,
+    "id": 95,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "星云追逐者",
     "subtype": "弹炮型(A)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "舰载机"
@@ -1278,12 +1306,12 @@
     ]
   },
   {
-    "id": 94,
+    "id": 96,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "星云追逐者",
     "subtype": "脉冲型(B)",
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "舰载机"
@@ -1293,12 +1321,12 @@
     ]
   },
   {
-    "id": 95,
+    "id": 97,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "蜂巢守卫者",
     "subtype": null,
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
       "舰载机"
@@ -1308,7 +1336,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 98,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "RB7-13",
@@ -1324,7 +1352,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 99,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "CV-II003",
@@ -1339,7 +1367,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 100,
     "class": "护航艇",
     "rate": 5,
     "prototype_name": "鳐",
@@ -1353,7 +1381,7 @@
     ]
   },
   {
-    "id": 99,
+    "id": 101,
     "class": "护航艇",
     "rate": 2.5,
     "prototype_name": "S-列维9号",
@@ -1369,12 +1397,12 @@
     ]
   },
   {
-    "id": 100,
+    "id": 102,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "米斯特拉",
     "subtype": null,
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "舰载机"
     ],
@@ -1383,7 +1411,7 @@
     ]
   },
   {
-    "id": 101,
+    "id": 103,
     "class": "战机",
     "rate": 5,
     "prototype_name": "AT021",
@@ -1397,7 +1425,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 104,
     "class": "战机",
     "rate": 5,
     "prototype_name": "AT021",
@@ -1413,7 +1441,7 @@
     ]
   },
   {
-    "id": 103,
+    "id": 105,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "AT021",
@@ -1428,7 +1456,7 @@
     ]
   },
   {
-    "id": 104,
+    "id": 106,
     "class": "战机",
     "rate": 5,
     "prototype_name": "佩刀Aer410",
@@ -1443,7 +1471,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 107,
     "class": "战机",
     "rate": 5,
     "prototype_name": "刺鳐",
@@ -1459,7 +1487,7 @@
     ]
   },
   {
-    "id": 106,
+    "id": 108,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "孢子A404",
@@ -1474,7 +1502,7 @@
     ]
   },
   {
-    "id": 107,
+    "id": 109,
     "class": "战机",
     "rate": 5,
     "prototype_name": "B192新大地",
@@ -1489,44 +1517,14 @@
     ]
   },
   {
-    "id": 108,
+    "id": 110,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "维塔斯-B010",
     "subtype": null,
-    "company": "安东尼奥",
+    "company": "安东尼奥斯",
     "strategy": [
       "火力出众",
-      "持续作战",
-      "舰载机"
-    ],
-    "tactic": [
-      "直射武器"
-    ]
-  },
-  {
-    "id": 109,
-    "class": "战机",
-    "rate": 5,
-    "prototype_name": "维塔斯A021",
-    "subtype": null,
-    "company": "安东尼奥",
-    "strategy": [
-      "火力出众",
-      "舰载机"
-    ],
-    "tactic": [
-      "投射武器"
-    ]
-  },
-  {
-    "id": 110,
-    "class": "战机",
-    "rate": 5,
-    "prototype_name": "平衡安德森SC020",
-    "subtype": null,
-    "company": "安东尼奥",
-    "strategy": [
       "持续作战",
       "舰载机"
     ],
@@ -1536,6 +1534,36 @@
   },
   {
     "id": 111,
+    "class": "战机",
+    "rate": 5,
+    "prototype_name": "维塔斯A021",
+    "subtype": null,
+    "company": "安东尼奥斯",
+    "strategy": [
+      "火力出众",
+      "舰载机"
+    ],
+    "tactic": [
+      "投射武器"
+    ]
+  },
+  {
+    "id": 112,
+    "class": "战机",
+    "rate": 5,
+    "prototype_name": "平衡安德森SC020",
+    "subtype": null,
+    "company": "安东尼奥斯",
+    "strategy": [
+      "持续作战",
+      "舰载机"
+    ],
+    "tactic": [
+      "直射武器"
+    ]
+  },
+  {
+    "id": 113,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "海氏追随者",
@@ -1551,7 +1579,7 @@
     ]
   },
   {
-    "id": 112,
+    "id": 114,
     "class": "战机",
     "rate": 5,
     "prototype_name": "林鸮A100",
@@ -1565,7 +1593,7 @@
     ]
   },
   {
-    "id": 113,
+    "id": 115,
     "class": "战机",
     "rate": 5,
     "prototype_name": "牛蛙",
@@ -1580,7 +1608,7 @@
     ]
   },
   {
-    "id": 114,
+    "id": 116,
     "class": "战机",
     "rate": 5,
     "prototype_name": "砂龙",
@@ -1595,7 +1623,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 117,
     "class": "战机",
     "rate": 5,
     "prototype_name": "SC002",
@@ -1611,7 +1639,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 118,
     "class": "战机",
     "rate": 5,
     "prototype_name": "BR050",
@@ -1626,7 +1654,7 @@
     ]
   },
   {
-    "id": 117,
+    "id": 119,
     "class": "战机",
     "rate": 5,
     "prototype_name": "BR050",
@@ -1641,7 +1669,7 @@
     ]
   },
   {
-    "id": 118,
+    "id": 120,
     "class": "战机",
     "rate": 2.5,
     "prototype_name": "BR050",
