@@ -12,6 +12,7 @@ Check the web at [https://tctianchi.github.io/lagrange-research/](https://tctian
 * 2023-12-17: add 雨海级
 * 2024-03-31: add BR050
 * 2024-05-30: add 游骑兵级
+* 2024-09-15: add 永恒苍穹, 海尔波普, fix 战略支援
 
 ## Dev
 
