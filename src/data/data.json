@@ -1496,6 +1496,7 @@
     "rate": 5,
     "prototype_name": "坦普尔1号",
     "subtype": "干扰型(A)",
+    "company": "木星工业",
     "strategy": [
       "战略支援",
       "舰载机"
@@ -1508,6 +1509,7 @@
     "rate": 2.5,
     "prototype_name": "坦普尔1号",
     "subtype": "预警型(B)",
+    "company": "木星工业",
     "strategy": [
       "战略支援",
       "舰载机"
